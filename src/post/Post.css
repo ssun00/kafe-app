@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.card {
+  width: 580px;
+  height: 689px;
+  background: #FFF;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  display: grid;
+  grid-template-rows: max-content max-content max-content max-content;
+}
+
+.card-body {
+  margin: 0 auto;
+}
+
+.card-header {
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: max-content max-content;
+}
+
+.card-header-details {
+  margin-left: 15px;
+  margin-top: 15px
+}
+
+#username {
+  color: #E5989B;
+  text-align: center;
+  font-family: Mochiy Pop P One;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+#username:hover {
+  cursor: pointer;
+}
+
+#username::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #E5989B;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#username:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#location {
+  color: #E3C9C6;
+  text-align: center;
+  font-family: Mochiy Pop P One;
+  font-size: 12px;
+}
+
+.user-pfp {
+  border-radius: 150px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.post-photo {
+  width: 487px;
+  height: 506px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-interactions {
+  justify-content: space-around;
+  margin-top: 20px;
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: max-content max-content;
+}
+
+.post-interactions {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: max-content max-content max-content;
+}
+
+#cafe-icon {
+  width: 20px;
+  height: 20px;
+  color: #E5989B;
+  margin-right: 10px;
+}
+
+#cafe-name {
+  color: #E5989B;
+  text-align: center;
+  font-family: Mochiy Pop P One;
+  font-size: 15px;
+}
+
+#heart-icon {
+  width: 25px;
+  height: 25px;
+}
+
+#filled-heart {
+  width: 25px;
+  height: 25px;
+  color: #E5989B;
+}
+
+#heart-icon:hover {
+  color: #E5989B;
+  cursor: pointer;
+}
+
+#filled-heart:hover {
+  color: #E5989B;
+  cursor: pointer;
+}
+
+#bookmark-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#filled-bookmark {
+  width: 20px;
+  height: 20px;
+  color: #E5989B;
+}
+
+#bookmark-icon:hover {
+  color: #E5989B;
+  cursor: pointer;
+}
+
+#filled-bookmark:hover {
+  color: #E5989B;
+  cursor: pointer;
+}
+
+#edit-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#edit-icon:hover {
+  color: #E5989B;
+  cursor: pointer;
+}
+
+.post-details {
+  margin-left: 50px;
+}
+
+#description {
+  color: #000;
+  font-family: Mochiy Pop P One;
+  font-size: 15px;
+}

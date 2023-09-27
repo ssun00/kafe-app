@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.Login {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h3 {
+  font-size: 15px;
+  color: #E3C9C6;
+}
+
+img {
+  width: 150px;
+  margin-top: 20px;
+}
+
+label {
+  color: #E5989B;
+  font-size: 25px;
+}
+
+.type-1 {
+  border-radius: 10px;
+  border: 1.5px solid #000;
+  transition: .3s border-color;
+  width: 443px;
+  height: 40px;
+  margin-top: 20px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+.type-1:hover {
+  border: 1px solid #E5989B;
+}
+
+.login-button {
+  border-radius: 10px;
+  border-color: #E5989B;
+  background: #E5989B;
+  width: 303px;
+  height: 65px;
+  flex-shrink: 0;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.login-button:hover {
+  border-color: #c2777a;
+  background: #c2777a;
+  cursor: pointer;
+}
+
+button.signup { 
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: #E5989B;
+  font-size: 18px;
+  background:none; 
+  border:none; 
+}
+
+button.signup:hover {
+  cursor: pointer;
+  color: #c2777a;
+}
+
+button.forgot-pass { 
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: black;
+  font-size: 18px;
+  background:none; 
+  border:none; 
+}
+
+button.forgot-pass:hover {
+  cursor: pointer;
+  color: #E5989B;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.Navigation {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo {
+  width: 70px;
+}
+
+.location {
+  size: 20px;
+}
+
+.search {
+  border-radius: 10px;
+  border: 1.5px solid black;
+  transition: .3s border-color;
+  width: 443px;
+  height: 40px;
+  margin-top: 24px;
+}
+
+.search-bar {
+  padding-left: 250px;
+}
+
+input {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: #E5989B;
+  padding-left: 10px;
+  text-indent: 10px;
+}
+
+::placeholder {
+  color: #E5989B;
+
+}
+
+.nav {
+  padding-left: 37px;
+  display:grid;
+  grid-template-columns: max-content max-content max-content;
+  grid-gap: 5px;
+}
+
+.new-post {
+  margin-left: 130px;
+  margin-top: 24px;
+}
+
+#add-button {
+  border-radius: 10px;
+  border-color: #E5989B;
+  background: #E5989B;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#add-button:hover {
+  background: #c47779;
+}
+
+#add {
+  margin-right: 10px;
+  margin-top: 5px;
+  color: white;
+  font-size: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+}

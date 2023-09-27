@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.SideBar {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sidebar {
+  width: 240px;
+  min-height: 84.5vh;
+  position: relative;
+  display: inline-grid;
+  grid-template-rows: max-content max-content;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pfp {
+  border-radius: 150px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.profile-card {
+  padding-top: 20px;
+  padding-left: 40px;
+  max-width: 200px;
+  text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.numbers {
+  font-family: Mochiy Pop P One;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.labels {
+  color: #E5989B;
+  font-family: Mochiy Pop P One;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  grid-gap: 5px;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+h2 {
+  color: #E5989B;
+  text-align: center;
+  font-family: Mochiy Pop P One;
+  font-size: 18px;
+}
+
+.navigation {
+  max-width: 200px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#logout-button {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: black;
+  font-size: 18px;
+  background:none; 
+  padding-top: 60px;
+  border: none; 
+  text-align: center;
+}
+
+#paw {
+  padding-top: 10px;
+  padding-right: 10px;
+  color: #E5989B;
+  font-size: 20px;
+
+}
+
+#icon {
+  padding-top: 25px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.navlink {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+}
+
+#logout {
+  padding-top: 60px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+#link { 
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: black;
+  font-size: 18px;
+  background:none; 
+  padding-top: 25px;
+  border:none; 
+  text-align: center;
+}
+
+#explore {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color:#E5989B;
+  font-size: 18px;
+  background:none; 
+  padding-top: 10px;
+  border:none; 
+  text-align: center;
+}
+
+#link:hover {
+  color: #E5989B;
+}
+
+#logout-button:hover {
+  color: #E5989B;
+}
+
+.navlink:hover {
+  color: #E5989B;
+}
