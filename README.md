@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+<h1 align="center">Kafei</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align=center>
+  <img src='https://github.com/ssun00/kafe-app/assets/59812442/5a1bd9fa-f53f-48dd-ac39-00ee8568b2f7' width="150" />
+</p>
+<p align="center">
+  ✨☕ Connect with fellow cafe-hoppers, share cafe recommendations, and explore what cafes friends are going to ☕✨
+</p>
 
-## Available Scripts
+## Introduction and Features
 
-In the project directory, you can run:
+Kafei is a social platform for coffee enthusiasts to explore new cafes and share their own findings with friends. Users can: 
+* Create and personalize an account
+* Make and edit posts
+* Favorite and save posts that have cafes they may want to go to in the future
+* Search for recommendations based off of location
+* Add friends
 
-### `npm start`
+<p align="center">
+  <img width="500" alt="Kafei Explore Page" src="https://github.com/ssun00/kafe-app/assets/59812442/c5ce25c9-d6fd-47ed-ab75-cf9289a40c2b">
+  <img width="500" alt="Kafei Profile Page" src="https://github.com/ssun00/kafe-app/assets/59812442/09480825-3523-412f-9fa2-4a7de8bfb7d8">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Design Process
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Wireframes and prototypes created through Figma. Designs and logos created with Procreate ♡ 
 
-### `npm test`
+* Explore the wireframing and prototyping process [here](https://www.figma.com/file/5QAjQqfNCdINTx6CqVKFAi/kafei?type=design&node-id=1%3A181&mode=design&t=SV3bm66fslIjk3ZG-1)
+* Walk through the prototype [here](https://www.figma.com/proto/5QAjQqfNCdINTx6CqVKFAi/kafei?node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design&t=XAqetvyGkaCa1R4u-1)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
